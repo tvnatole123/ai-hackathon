@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+    "@langchain/anthropic": "^0.1.17",
+    "@langchain/community": "^0.0.56",
+    "@langchain/core": "^0.1.63",
+    "@langchain/openai": "^0.0.29",
+    "@supabase/supabase-js": "^2.43.2",
+    "dotenv": "^16.4.5",
+    "langchain": "^0.1.37",
+    "pgvector": "^0.1.8"
+  },
+  "type": "module",
+  "devDependencies": {
+    "webpack": "^5.91.0",
+    "webpack-cli": "^5.1.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+   }
+}
